@@ -13,6 +13,12 @@ keywords = ["browser", "url", "window"]
 categories = ["os", "api-bindings", "development-tools"]
 readme = "README.md"
 
+[package.metadata.docs.rs]
+all-features = true
+default-target = "x86_64-pc-windows-msvc"
+targets = ["x86_64-pc-windows-msvc"]
+
+
 [dependencies]
 thiserror = {version = "~2.0"}
 windows = { version = "~0.62", features = ["Win32_UI_WindowsAndMessaging","Win32_System_Threading","Win32_System_ProcessStatus"] }
