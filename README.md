@@ -8,7 +8,7 @@ Add to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-extract-browser-url = "0.1.0"
+extract-browser-url = "0.1.1"
 ```
 
 Or via the CLI:
